@@ -1,7 +1,5 @@
 package com.felipevenegas.felipe_venegas_20240915_022_1_2024.composable
 
-import android.content.ContentValues.TAG
-import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -24,7 +22,6 @@ import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -38,7 +35,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
 import com.felipevenegas.felipe_venegas_20240915_022_1_2024.Detalle
-import com.felipevenegas.felipe_venegas_20240915_022_1_2024.R
 import com.felipevenegas.felipe_venegas_20240915_022_1_2024.model.Juguete
 import com.felipevenegas.felipe_venegas_20240915_022_1_2024.model.MenuContextual
 
